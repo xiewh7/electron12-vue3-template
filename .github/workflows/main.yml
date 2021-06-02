@@ -38,4 +38,4 @@ jobs:
           path: |
            *
         env:
-          GITHUB_TOKEN: ${{ secrets.ELECTRON }}
+          GH_TOKEN: ${{ secrets.ELECTRON }}
